@@ -1,0 +1,28 @@
+# 🔹 Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# 🔹 Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs
+*.log.*
+log/
+
+# 🔹 Ignore dependency directories
+node_modules/
+dist/
+out/
+.cache/
+.temp/
+
+# 🔹 Ignore compiled TypeScript files
+*.tsbuildinfo
+
+# 🔹 Ignore Forge & Hardhat build files
+artif
